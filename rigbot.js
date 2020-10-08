@@ -42,6 +42,5 @@ client.on('message', function (message) {
 
 client.login(token).catch((err) => {
     console.error("Unable to connect to Discord. Please check your Discord Bot Token.")
-    console.error(err)
     process.exit(1)
 })

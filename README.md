@@ -17,7 +17,7 @@ rigctld is a is a radio control daemon that handles client requests via TCP sock
 rigbot requires a Node.js environment and a running and correctly set up rigctld instance. You can install rigbot using the npm package manager:
 
 ```
-sudo npm install rigbot -g
+sudo npm install rigbot --global
 ```
 
 Information about Hamlib and rigctld can be found here:
