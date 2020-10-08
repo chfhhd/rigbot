@@ -1,0 +1,6 @@
+{
+    "BOT_TOKEN": "",
+    "BOT_PREFIX": "rig",    
+    "RIGCTLD_IP": "127.0.0.1",
+    "RIGCTLD_PORT": "4532"
+}
