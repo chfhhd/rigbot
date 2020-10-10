@@ -1,6 +1,6 @@
 {
   "name": "rigbot",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "A simple Discord bot to remote control the Hamlib TCP rig control daemon rigctld",
   "main": "rigbot.js",
   "bin": {
