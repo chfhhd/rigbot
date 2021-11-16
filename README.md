@@ -63,3 +63,7 @@ in Discord you will need to write:
 ```
 rig !F 145123345
 ```
+
+**License**
+
+MIT License
