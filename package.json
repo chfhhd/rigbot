@@ -1,6 +1,6 @@
 {
   "name": "rigbot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple Discord bot to remote control the Hamlib TCP rig control daemon rigctld",
   "main": "rigbot.js",
   "bin": {
@@ -12,8 +12,12 @@
   "author": {
     "name": "Ch. Hahn",
     "email": "chrhhn@gmail.com",
-    "url": "https://github.com/chrhhn"
+    "url": "https://github.com/chfhhd"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chfhhd/rigbot"
+  },  
   "keywords": [
     "HAM Radio",
     "Amateur radio",
@@ -21,7 +25,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "commander": "^6.1.0",
+    "commander": "^8.3.0",
     "discord.js": "^12.3.1"
   }
 }

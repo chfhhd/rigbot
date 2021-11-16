@@ -58,7 +58,7 @@ For example (to set a frequency), if the rigctld command is
 !F 145123345
 ```
 
-you will need to write:
+in Discord you will need to write:
 
 ```
 rig !F 145123345

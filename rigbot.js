@@ -8,15 +8,15 @@ const config = require('./config.json')
 const client = new discord.Client()
 
 application
-    .version('1.0.0')
+    .version('1.0.2')
     .name('rigbot')
     .description('A simple Discord bot to remote control the Hamlib TCP rig control daemon rigctld')
-    .option('-t,--token [Bot token]', 'Discord Bot token', config.BOT_TOKEN)
+    .requiredOption('-t,--token <Discord Bot token>', 'Discord Bot token', config.BOT_TOKEN)
     .option('-i,--ip [IP address]', 'IP address of your rigctld server', config.RIGCTLD_IP)
     .option('-p,--port [TCP port]', 'TCP port of your rigctld server', config.RIGCTLD_PORT)
     .parse(process.argv)
 
-const { ip, port, token } = application
+const { token, ip, port } = application.opts()
 
 client.on('message', function (message) {
     if (message.author.bot) return
